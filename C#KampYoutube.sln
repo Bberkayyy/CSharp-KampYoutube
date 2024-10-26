@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons.Lesson_05_LoopsWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons.Lesson_06_Arrays", "Lessons\Lessons.Lesson_06_Arrays\Lessons.Lesson_06_Arrays.csproj", "{28C416CE-28C0-49C7-92A9-716304B8AE53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons.Lesson_07_ForeachLoop", "Lessons\Lessons.Lesson_07_ForeachLoop\Lessons.Lesson_07_ForeachLoop.csproj", "{58CB9279-06B1-487A-A5D2-3CD58CD94D32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{28C416CE-28C0-49C7-92A9-716304B8AE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C416CE-28C0-49C7-92A9-716304B8AE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C416CE-28C0-49C7-92A9-716304B8AE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CB9279-06B1-487A-A5D2-3CD58CD94D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CB9279-06B1-487A-A5D2-3CD58CD94D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CB9279-06B1-487A-A5D2-3CD58CD94D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CB9279-06B1-487A-A5D2-3CD58CD94D32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{C10D6C67-5141-4E80-8045-3680EB777E1F} = {89D7AA50-1BB4-4255-A455-21D02285CE8D}
 		{0A401F70-4E15-4CB4-AB9B-B2E862FD917C} = {89D7AA50-1BB4-4255-A455-21D02285CE8D}
 		{28C416CE-28C0-49C7-92A9-716304B8AE53} = {89D7AA50-1BB4-4255-A455-21D02285CE8D}
+		{58CB9279-06B1-487A-A5D2-3CD58CD94D32} = {89D7AA50-1BB4-4255-A455-21D02285CE8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD759044-EF6F-4BC4-9E26-7AC159D78C10}
