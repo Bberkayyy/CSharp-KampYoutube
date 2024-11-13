@@ -13,6 +13,7 @@ namespace Lessons.Lesson_11_Module301_EntityLayer.Concrete
         public string Surname { get; set; }
         public string District { get; set; }
         public string City { get; set; }
+        public bool Status { get; set; }
         public List<Order> Orders { get; set; }
     }
 }
