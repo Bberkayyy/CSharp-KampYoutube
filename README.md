@@ -23,4 +23,17 @@ Bu projede, foreach döngüsünü daha yakından inceleyip bir sınav sistemi si
 ## Proje 8: Geriye Değer Döndürmeyen, Geriye Değer Döndüren ve Parametreli Fonksiyonlar
 Son projede, geri değer döndüren,döndürmeyen ve parametreli metotlar ile çalıştım. Kullanıcıdan aldığım verileri işleyip sonuçları döndüren fonksiyonlar oluşturdum. Kodlarımı parçalara bölmek ve gerektiğinde tekrar kullanabilmek için metotlar oluşturmayı öğrendim. Parametre alarak işlem yapan ve sonuç döndüren metotlar yazmayı denedim. 
 
+## Proje 9-10: Database
+Bu projede, sql veri tabanı yapısını, veri tabanı oluşturmayı, veri tiplerini, veri girişini, sql server management studio üzerinden veri tabanı işlemlerini yapmayı öğrendim. Oluşturduğum veri tabanını c# ile bağladım ve c# üzerinden temel crud işlemlerini gerçekleştirdim.
+
+## Proje 11-12-13: OOP Modülü
+Ders 11 itibari ile OOP modülüne geçildi. Burada n katmanlı mimari ile bir proje oluşturduk. CodeFirst yaklaşımı ile entity katmanında entity sınıfları oluşturuldu. Data access katmanında veri tabanı bağlantısı oluşturularak migration ile entity sınıfları veri tabanına tablo olarak yansıtıldı.
+
+## Proje 14-15-16: Entity Framework ORM
+Burada veri tabanı işlemlerinin entity framework orm kullanılarak daha az kod ile yapılabildiğini öğrendim. Entity framework metotları ile proje üzerinde crud işlemlerini gerçekleştirdim.
+
+## Proje 17: Entity Framework ORM Linq Sorguları
+Burada entity framework orm ile oluşturulan proje üzerinde linq sorguları kullanarak bazı istatistikleri bir form üzerinde görselleştirdim.
+![image](https://github.com/user-attachments/assets/d6b0a436-3d91-4eab-b061-a31cef83b6a5)
+
 Bu projeler sayesinde C# diline dair temel kavramları uygulamalı olarak tekrar etme fırsatı buldum. İlerleyen projelerde bilgilerimi pekiştireceğimi düşünüyorum!
