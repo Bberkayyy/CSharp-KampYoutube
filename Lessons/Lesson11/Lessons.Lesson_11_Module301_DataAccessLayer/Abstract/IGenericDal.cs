@@ -10,7 +10,7 @@ namespace Lessons.Lesson_11_Module301_DataAccessLayer.Abstract
     {
         void Insert(TEntity entity);
         void Update(TEntity entity);
-        void Delete(int id);
+        void Delete(TEntity entity);
         List<TEntity> GetAll();
         TEntity GetById(int id);
     }
