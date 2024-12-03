@@ -16,7 +16,7 @@ namespace Lessons.Lesson_14_Module301_EntityFramework
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmGuide());
+            Application.Run(new FrmStatistics());
         }
     }
 }
