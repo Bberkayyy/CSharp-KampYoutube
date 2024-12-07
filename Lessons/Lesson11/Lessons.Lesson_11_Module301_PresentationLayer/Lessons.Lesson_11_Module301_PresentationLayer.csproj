@@ -56,8 +56,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,6 +94,14 @@
     <ProjectReference Include="..\Lessons.Lesson_11_Module301_BusinessLayer\Lessons.Lesson_11_Module301_BusinessLayer.csproj">
       <Project>{bf516ebe-13fb-4e5c-8d46-6aeec0d66279}</Project>
       <Name>Lessons.Lesson_11_Module301_BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lessons.Lesson_11_Module301_DataAccessLayer\Lessons.Lesson_11_Module301_DataAccessLayer.csproj">
+      <Project>{4369a43a-eecf-4341-a3c3-3135fbd958b2}</Project>
+      <Name>Lessons.Lesson_11_Module301_DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lessons.Lesson_11_Module301_EntityLayer\Lessons.Lesson_11_Module301_EntityLayer.csproj">
+      <Project>{0df2a053-08a0-4bb1-9de5-735f0de83968}</Project>
+      <Name>Lessons.Lesson_11_Module301_EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -41,12 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\ICustomerService.cs" />
+    <Compile Include="Abstract\IGenericService.cs" />
+    <Compile Include="Abstract\IOrderService.cs" />
+    <Compile Include="Abstract\IProductService.cs" />
+    <Compile Include="Concrete\CategoryManager.cs" />
+    <Compile Include="Concrete\CustomerManager.cs" />
+    <Compile Include="Concrete\OrderManager.cs" />
+    <Compile Include="Concrete\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lessons.Lesson_11_Module301_DataAccessLayer\Lessons.Lesson_11_Module301_DataAccessLayer.csproj">
       <Project>{4369a43a-eecf-4341-a3c3-3135fbd958b2}</Project>
       <Name>Lessons.Lesson_11_Module301_DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lessons.Lesson_11_Module301_EntityLayer\Lessons.Lesson_11_Module301_EntityLayer.csproj">
+      <Project>{0df2a053-08a0-4bb1-9de5-735f0de83968}</Project>
+      <Name>Lessons.Lesson_11_Module301_EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
