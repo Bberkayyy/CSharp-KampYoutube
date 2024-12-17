@@ -33,6 +33,11 @@ namespace Lessons.Lesson_11_Module301_BusinessLayer.Concrete
             return _productDal.GetById(id);
         }
 
+        public List<object> TGetProductsWithCategories()
+        {
+            return _productDal.GetProductsWithCategories();
+        }
+
         public void TInsert(Product entity)
         {
             _productDal.Insert(entity);

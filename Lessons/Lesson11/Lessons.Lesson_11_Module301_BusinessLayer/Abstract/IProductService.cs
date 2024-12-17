@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Lessons.Lesson_11_Module301_BusinessLayer.Abstract
 {
-    public interface IProductService:IGenericService<Product>
+    public interface IProductService : IGenericService<Product>
     {
+        List<object> TGetProductsWithCategories();
     }
 }

@@ -9,5 +9,6 @@ namespace Lessons.Lesson_11_Module301_DataAccessLayer.Abstract
 {
     public interface IProductDal : IGenericDal<Product>
     {
+        List<object> GetProductsWithCategories();
     }
 }
