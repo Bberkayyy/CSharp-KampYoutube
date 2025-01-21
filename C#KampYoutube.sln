@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module601", "Module601", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons.Lesson_24_Module601", "Lessons\Module601\Lessons.Lesson_24_Module601\Lessons.Lesson_24_Module601.csproj", "{D3150387-2B87-4077-A9CD-B1477CCC856C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons.Lesson_26_Module601_PostgreSql", "Lessons\Module601\Lessons.Lesson_26_Module601_PostgreSql\Lessons.Lesson_26_Module601_PostgreSql.csproj", "{D93EFC89-1753-49C3-B54A-2DC0188E8AD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{D3150387-2B87-4077-A9CD-B1477CCC856C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3150387-2B87-4077-A9CD-B1477CCC856C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3150387-2B87-4077-A9CD-B1477CCC856C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93EFC89-1753-49C3-B54A-2DC0188E8AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93EFC89-1753-49C3-B54A-2DC0188E8AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93EFC89-1753-49C3-B54A-2DC0188E8AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93EFC89-1753-49C3-B54A-2DC0188E8AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +143,7 @@ Global
 		{57644273-18AC-4B4E-8A6B-5245A6525A69} = {C8699F5B-F09F-4962-B971-CBC752522099}
 		{7B2B6EED-4622-4A16-BBE5-086E5C63DB64} = {89D7AA50-1BB4-4255-A455-21D02285CE8D}
 		{D3150387-2B87-4077-A9CD-B1477CCC856C} = {7B2B6EED-4622-4A16-BBE5-086E5C63DB64}
+		{D93EFC89-1753-49C3-B54A-2DC0188E8AD2} = {7B2B6EED-4622-4A16-BBE5-086E5C63DB64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD759044-EF6F-4BC4-9E26-7AC159D78C10}
