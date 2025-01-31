@@ -36,4 +36,12 @@ Burada veri tabanı işlemlerinin entity framework orm kullanılarak daha az kod
 Burada entity framework orm ile oluşturulan proje üzerinde linq sorguları kullanarak bazı istatistikleri bir form üzerinde görselleştirdim.
 ![image](https://github.com/user-attachments/assets/d6b0a436-3d91-4eab-b061-a31cef83b6a5)
 
+## Final: Finansal Crm Projesi
+Kamp boyunca öğrenmiş olduğum bilgileri kullanarak geliştrdiğim entity framework orm projesidir. Proje ile ilgili görselleri aşağıda görebilirsiniz.
+
+![Image](https://github.com/user-attachments/assets/fbff9def-823d-4bf4-95dc-8336964dda82)
+![Image](https://github.com/user-attachments/assets/6b99c1d1-ca0d-43fb-8c47-e1e98c96b747)
+![Image](https://github.com/user-attachments/assets/bda2c80a-7599-41d1-8247-6979f847d5e6)
+![Image](https://github.com/user-attachments/assets/10e59f37-0437-43e4-8236-4dfcda8109f8)
+
 Bu projeler sayesinde C# diline dair temel kavramları uygulamalı olarak tekrar etme fırsatı buldum. İlerleyen projelerde bilgilerimi pekiştireceğimi düşünüyorum!
